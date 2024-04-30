@@ -86,7 +86,78 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header {
+  display: flex;
+  justify-content: center;
+}
 
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer .social-icons {
+}
+
+footer .social-icons p {
+}
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+.features .features-items {
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+/****About Page*****/
+
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+/*****FAQ Page*****/
+
+.faq {
+  display: flex;
+  justify-content: center;
+}
+
+.faq .content-wrapper {
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +331,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
