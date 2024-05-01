@@ -95,6 +95,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul,
@@ -124,9 +125,11 @@ p {
 }
 
 img {
+  width: 100%;
 }
 
 figure {
+  margin: 0;
 }
 
 address {
@@ -140,7 +143,6 @@ address {
 
 /****Header - Footer Styles****/
 .content-wrapper {
-  outline: 3px dotted red;
   width: 90%;
   margin: 50px 0;
 }
@@ -220,6 +222,10 @@ footer .copyright {
   margin: 20px 0;
 }
 .hero-area {
+  background-image: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
@@ -264,6 +270,9 @@ input[type="button"] {
 }
 
 .features {
+  background: url(../img/unplugged-retreat-features.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
