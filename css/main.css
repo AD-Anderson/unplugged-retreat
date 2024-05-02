@@ -125,7 +125,9 @@ p {
 }
 
 img {
-  width: 100%;
+  width: 60%;
+  display: block;
+  margin: auto;
 }
 
 figure {
@@ -179,7 +181,7 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 70%;
 }
 
 header nav ul li {
@@ -235,6 +237,7 @@ footer .copyright {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
+  height: 377px;
 }
 
 aside {
@@ -318,6 +321,22 @@ input[type="button"] {
   background-color: #527158;
   display: flex;
   justify-content: center;
+}
+
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .contact-section {
@@ -461,6 +480,10 @@ input[type="button"] {
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
+  }
+
+  img {
+    width: 30%;
   }
 
   header nav {
